@@ -37,7 +37,7 @@ public class ConsultaIBGETest {
 
 
     @Test
-    @DisplayName("Testa resposta vazia para estado inexistente")
+    @DisplayName("Teste resposta vazia para estado inexistente")
     public void testRespostaVaziaEstado() throws IOException {
         // Arrange
         String uf = "ZZ"; // Estado que não existe
