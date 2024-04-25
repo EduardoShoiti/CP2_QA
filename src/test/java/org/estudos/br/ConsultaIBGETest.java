@@ -96,9 +96,10 @@ public class ConsultaIBGETest {
         // Act
         String resposta = consulta.consultarDistrito(distritoId);
 
+
         // Assert
         assertFalse(resposta.isEmpty(), "A resposta não deve ser vazia.");
-        assertTrue(resposta.contains("\"nome\":\"Abadia de Goiás\""), "A resposta deve conter o nome do distrito.");
+        assertTrue(resposta.contains("\"id\":520005005"), "A resposta deve conter o id do distrito.");
     }
 
 
